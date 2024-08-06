@@ -6,7 +6,7 @@ export default function Header() {
         <header>
             <div className="">
                 <div className="">
-                    <img src="" alt="" />
+                    <img src={"../img/Logo.png"} alt="" />
                     <h1>Organick</h1>
                 </div>
                 <ul>
