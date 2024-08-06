@@ -1,35 +1,46 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Logo from "./../img/Logo.png"
 
 export default function Header() {
     return (
-        <header>
-            <div className="">
-                <div className="">
-                    <img src={"../img/Logo.png"} alt="" />
-                    <h1>Organick</h1>
-                </div>
-                <ul>
-                    <NavLink to={''}>
+        <header className='header'>
+            <div className='logoContainer'>
+                <img src={Logo} alt="Logo" className='logo'/>
+                <h1 className='title'>Organick</h1>
+            </div>
+            <ul className='navLinks'>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>Home</p>
                     </NavLink>
-                    <NavLink to={''}>
+                </li>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>About</p>
                     </NavLink>
-                    <NavLink to={''}>
+                </li>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>Pages</p>
                     </NavLink>
-                    <NavLink to={''}>
+                </li>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>Shop</p>
                     </NavLink>
-                    <NavLink to={''}>
+                </li>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>Projects</p>
                     </NavLink>
-                    <NavLink to={''}>
+                </li>
+                <li>
+                    <NavLink to={''} className='navLink'>
                         <p>News</p>
                     </NavLink>
-                </ul>
-            </div>
+                </li>
+            </ul>
         </header>
-    )
+    );
 }
