@@ -1,0 +1,24 @@
+.btn_conteiner {
+    .outlined-button {
+      $border-color: #000; // Переменная для цвета границы
+      $hover-background-color: #f0f0f0; // Переменная для фона при наведении
+      $hover-border-color: #333; // Переменная для цвета границы при наведении
+      border: 2px solid $border-color; // Задает границу кнопки
+      border-radius: 4px; // Закругление углов
+      padding: 8px 16px; // Внутренние отступы
+      background-color: transparent; // Прозрачный фон
+      cursor: pointer; // Курсор в виде указателя
+      transition: background-color 0.3s, border-color 0.3s; // Плавные переходы
+  
+      &:hover {
+        background-color: $hover-background-color; // Фон при наведении
+        border-color: $hover-border-color; // Граница при наведении
+      }
+  
+      &:active {
+        // Эффект нажатия
+        transform: scale(0.95); // Уменьшение размера кнопки
+      }
+    }
+  }
+  
