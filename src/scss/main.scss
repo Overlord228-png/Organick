@@ -1,3 +1,7 @@
 @import "_header.scss";
 
-@import "_btn.case.scss"
+@import "_btn.case.scss";
+
+
+@import './globalScss/variables';
+@import "./globalScss/mixins"
