@@ -1,0 +1,12 @@
+.btn_conteiner {
+    .outlined-button {
+        @include button-styles(
+            $height: $height,
+            $max-width: $max-width,
+            $padding: $padding,
+            $border-radius: $border-radius,
+            $border-color: $border-color-primary,
+            $text-color: $text-color-primary
+            );
+        }
+}
