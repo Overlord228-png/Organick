@@ -1,43 +1,104 @@
-/* Header.module.scss */
-
-.header {
-    background-color: black;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+// .header {
+//   max-width: 1595px;
+//   height: auto;
+//     background-color: rgb(182, 78, 78);
+//     padding: 10px 20px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
   
+//     .logoContainer {
+//       display: flex;
+//       align-items: center;
+  
+//       .logo {
+//         max-width: 50px;
+//         height: auto;
+//         margin-right: 10px;
+//       }
+  
+//       .title {
+//         font-size: 24px;
+//         color: #333;
+//       }
+//     }
+  
+//     .navLinks {
+//       list-style: none;
+//       display: flex;
+//       gap: 20px;
+  
+//       .navLink {
+//         text-decoration: none;
+//         color: #333;
+//         font-size: 18px;
+//         transition: color 0.3s;
+  
+//         &:hover {
+//           color: #007bff;
+//         }
+//       }
+//     }
+//   }
+
+// Общие стили для header
+.header {
+  max-width: 1920px;
+  margin: 0 auto; // Центрирование header
+  padding: 0 20px; // Отступы по бокам
+
+  .header_block {
+    max-width: 1595px;
+    margin: 0 auto; // Центрирование header_block внутри header
+    display: flex;
+    justify-content: space-between; // Распределение элементов по горизонтали
+    align-items: center; // Выравнивание элементов по вертикали
+
     .logoContainer {
       display: flex;
       align-items: center;
-  
+
       .logo {
-        max-width: 50px;
-        height: auto;
         margin-right: 10px;
       }
-  
-      .title {
-        font-size: 24px;
-        color: #333;
-      }
     }
-  
+
     .navLinks {
       list-style: none;
       display: flex;
       gap: 20px;
-  
+      margin: 0;
+      padding: 0;
+
       .navLink {
         text-decoration: none;
-        color: #333;
-        font-size: 18px;
-        transition: color 0.3s;
-  
-        &:hover {
-          color: #007bff;
+        color: #000;
+
+        p {
+          margin: 0;
         }
       }
     }
+
+    .searchAndBtn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
   }
-  
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .header {
+    .header_block {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .navLinks {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
