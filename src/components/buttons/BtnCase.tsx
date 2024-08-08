@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
 import Case from"../../img/icons/case.svg"
-
-export const BtnCase = () => {
-  return (
-    <div className="btn_conteiner">
-        <img src={Case} alt="" />
-        <button className='outlined-button'>Cart (0)</button>
-    </div>
-  )
+interface CartButtonProps {
+  count: number;
 }
+
+const BtnCase: React.FC<CartButtonProps> = ({ count }) => {
+  return (
+    <button className="cart-button">
+      <div className="icon-container">
+        <img src={Case} alt="Cart" />
+      </div>
+      <p className='text_cart'>Cart ({count})</p>
+    </button>
+  );
+}
+
+export default BtnCase;

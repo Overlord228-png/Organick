@@ -2,12 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./../img/Logo.png";
 import { InputSearch } from "./inputs/InputSearch";
-import {BtnCase} from "./buttons/BtnCase"
+import BtnCase from "./buttons/BtnCase"
 
-export default function Header() {
+const Header: React.FC = () => {
 	return (
-		<header className="">
-			<div className="header">
+		<header className="header">
+			<div className="header_block">
 				<div className="logoContainer">
 					<img src={Logo} alt="" className="logo" />
 					<h1 className="title">Organick</h1>
@@ -34,9 +34,10 @@ export default function Header() {
 				</ul>
 				<div className="">
 					<InputSearch />
-					<BtnCase />
+					<BtnCase count={0}/>
 				</div>
 			</div>
 		</header>
 	);
 }
+export default Header;
