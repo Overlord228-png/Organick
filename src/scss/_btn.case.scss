@@ -1,0 +1,99 @@
+@import './globalScss/variables';
+@import './globalScss/mixins';
+
+// .btn_conteiner {
+//     max-width: 159px;
+//     height: 66px;
+//     border: 1px solid rgb(244, 244, 244, 1);
+//     border-radius: 33px;
+//     .icon_case img {
+//         width: 100%;
+//         height: auto;
+//     }
+//     .icon_case{
+//         max-width: 56px;
+//         height: 56px;
+//         background: rgba(39, 76, 91, 1);
+//         border-radius: 25%;
+//     }
+    
+//     .outlined-button {
+//     }
+// }
+
+// .cart-button {
+//     display: flex;
+//     align-items: center;
+//     padding: 0 auto;
+//     border-radius: 33px;
+//     border: 1px solid #E0E0E0;
+//     background-color: #fff;
+//     color: #333;
+//     font-size: 16px;
+//     cursor: pointer;
+//     .icon-container {
+//         background-color: #274C5B;
+//         border-radius: 50%;
+//         width: 56px;
+//         height: 56px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin-right: 10px;
+//     }
+  
+//     img {
+//         display: block;
+//         max-width: 100%;
+//         height: auto;
+//     }
+//     .text_cart{
+//         color: #274C5B;
+//         font-family: Roboto;
+//         font-size: 18px;
+//         font-weight: 600;
+//         line-height: 21px;
+//         text-align: left;
+//     }
+//   }
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; // Ensures content is horizontally centered
+    border-radius: 33px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto; // Ensures the button is only as wide as its content plus padding
+    min-width: 100px; // Minimum width can be set for better touch targets on mobile
+
+    .icon-container {
+        background-color: #274C5B;
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    img {
+        display: block;
+        max-width: 70%; // Adjusted to be a percentage of the container size
+        height: auto; // Maintains aspect ratio
+    }
+
+    .text_cart {
+        color: #274C5B;
+        font-family: 'Roboto', sans-serif; // Ensure the font family is properly quoted
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: left; // This aligns the text within the '.text_cart' span, might need adjusting based on design
+        white-space: nowrap; // Prevents text from wrapping
+    }
+}
