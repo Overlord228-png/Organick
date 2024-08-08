@@ -1,4 +1,6 @@
-// @mixin button-styles($border-color: $border-color, $hover-background-color: $hover-background-color, $hover-border-color: $hover-border-color) {
+// @mixin button-styles($border-color: $border-color, 
+// $hover-background-color: $hover-background-color, 
+// $hover-border-color: $hover-border-color) {
 //     border: 2px solid $border-color;
 //     border-radius: $border-radius;
 //     padding: $padding;
@@ -14,4 +16,27 @@
 //       transform: scale($active-scale);
 //     }
 //   }
-  
+
+@mixin button-styles(
+    $height,
+    $max-width,
+    $padding,
+    $border-radius,
+    $border-color,
+    $text-color
+    ) {
+        width: $max-width;
+        height: $height;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+        padding: $padding;
+        background-color: $border-color;
+        cursor: pointer;
+        color: $text-color;
+        transition: background-color 0.3s, border-color 0.3s;
+
+        &:hover {
+            background-color: lighten($border-color, 10%);
+            border-color: darken($border-color, 10%);
+        }
+    }

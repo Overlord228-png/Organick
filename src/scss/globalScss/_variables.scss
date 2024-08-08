@@ -1,9 +1,20 @@
-$border-color: rgba(39, 76, 91, 1);
-$border-radius: 16px; // Закругление углов
-$padding: 28px  39px 29px 39px; // Отступы
+$max-width: 237px;
+$height: 80px;
+
+$border-color-primary: rgba(39, 76, 91, 1);
+$border-color-secondary: rgba(239, 211, 114, 1);
+$border-color-light: rgba(255, 255, 255, 1);
+
+$border-radius: 16px;
+$padding: 28px 39px 29px 39px;
+
+$text-color-primary: rgba(255, 255, 255, 1);
+$text-color-secondary: rgba(39, 76, 91, 1);
+$text-color-light: rgba(39, 76, 91, 1);
 
 
-; // Основной цвет границы
+
+// Основной цвет границы
 // $hover-background-color: #f0f0f0; // Фон кнопки при наведении
 // $hover-border-color: #333; // Цвет границы при наведении
 // $transition-duration: 0.3s; // Длительность перехода
