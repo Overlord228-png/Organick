@@ -170,53 +170,51 @@ a {
 // Page Banner
 .page-banner {
   &_about-us {
-    background: url(../public/img/Banner/About-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/About-min.jpg) center center/cover no-repeat;
   }
 
   &_team-us {
-    background: url(../public/img/Banner/Team-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/Team-min.jpg) center center/cover no-repeat;
+
   }
 
   &_services {
-    background: url(../public/img/Banner/Services-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/Services-min.jpg) center center/cover no-repeat;
+
   }
 
   &_news {
-    background: url(../public/img/Banner/News-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/News-min.jpg) center center/cover no-repeat;
+
   }
 
   &_shop {
-    background: url(../public/img/Banner/Shop-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/Shop-min.jpg) center center/cover no-repeat;
+
   }
 
   &_contact-us {
-    background: url(../public/img/Banner/ContactUs-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/ContactUs-min.jpg) center center/cover no-repeat;
+
   }
 
   &_protected-page {
-    background: url(../public/img/Banner/PasswordProtected-min.jpg) center
-      center/cover no-repeat;
+    background: url(../../public/assets/img/PasswordProtected-min.jpg) center center/cover no-repeat;
+
   }
 
   &_product-single {
-    background: url(../public/img/Banner/ShopSingle-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/ShopSingle-min.jpg) center center/cover no-repeat;
   }
 
   &_quality-standard {
-    background: url(../public/img/Banner/QualityStandard-min.jpg) center
-      center/cover no-repeat;
+    background: url(../../public/assets/img/QualityStandard-min.jpg) center center/cover no-repeat;
+
   }
 
   &_portfolio-standard {
-    background: url(../public/img/Banner/Portfolio-min.jpg) center center/cover
-      no-repeat;
+    background: url(../../public/assets/img/Portfolio-min.jpg) center center/cover no-repeat;
+
   }
 
   &_news-single {
