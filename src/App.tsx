@@ -2,7 +2,7 @@ import { Suspense, lazy, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import qs from "qs";
 import "./sass/global.scss";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/header/Navigation";
 
 
 const App = () => {
