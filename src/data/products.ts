@@ -9,7 +9,7 @@ const catalog = [
     modifiedPrice: 0,
     salePrice: 14.99,
     name: "Calabrese Broccoli",
-    img: "../../img/Catalog/Broccoli-min.jpg",
+    img: "../../public/assets/img/Broccoli-min.jpg",
     description:
       "Fresh and nutritious Calabrese Broccoli. Perfect for a healthy and delicious meal.",
     descriptionMore:
@@ -26,7 +26,7 @@ const catalog = [
     isSalePrice: false,
     counter: 1,
     name: "Fresh Banana Fruits",
-    img: "../../img/Catalog/Banana-min.jpg",
+    img: "../../public/assets/img/Banana-min.jpg",
     description:
       "Delicious and ripe Fresh Banana Fruits. Packed with natural sweetness and nutrients.",
     descriptionMore:
@@ -44,7 +44,7 @@ const catalog = [
     isSalePrice: true,
     salePrice: 11.99,
     name: "White Nuts",
-    img: "../../img/Catalog/Nuts-min.jpg",
+    img: "../../public/assets/img/Nuts-min.jpg",
     description:
       "Nutrient-rich White Nuts. An excellent source of energy and a great addition to your diet.",
     descriptionMore:
@@ -61,7 +61,7 @@ const catalog = [
     modifiedPrice: 0,
     counter: 1,
     name: "Vegan Red Tomato",
-    img: "../../img/Catalog/Tomato-min.jpg",
+    img: "../../public/assets/img/Tomato-min.jpg",
     description:
       "Vibrant and flavorful Vegan Red Tomato. Ideal for salads, sauces, and various dishes.",
     descriptionMore:
@@ -78,7 +78,7 @@ const catalog = [
     isSalePrice: false,
     counter: 1,
     name: "Mung Bean",
-    img: "../../img/Catalog/Bean-min.jpg",
+    img: "../../public/assets/img/Bean-min.jpg",
     description:
       "Healthy and protein-packed Mung Bean. Perfect for vegetarian dishes.",
     descriptionMore:
@@ -96,7 +96,7 @@ const catalog = [
     counter: 1,
     name: "Brown Hazelnut",
     isNew: true,
-    img: "../../img/Catalog/Hazelnut-min.jpg",
+    img: "../../public/assets/img/Hazelnut-min.jpg",
     description:
       "Rich and aromatic Brown Hazelnut. Adds a delightful crunch to snacks and desserts.",
     descriptionMore:
@@ -113,7 +113,7 @@ const catalog = [
     isSalePrice: false,
     counter: 1,
     name: "Eggs",
-    img: "../../img/Catalog/Eggs-min.jpg",
+    img: "../../public/assets/img/Eggs-min.jpg",
     description: "Farm-fresh Eggs. High-quality protein for nutritious meals.",
     descriptionMore:
       "Packed with essential amino acids and vitamins. Ideal for breakfast, baking, or cooking.",
@@ -130,7 +130,7 @@ const catalog = [
     isSalePrice: true,
     salePrice: 7.99,
     name: "Zelco Suji Elaichi Rusk",
-    img: "../../img/Catalog/Zelco Suji Elaichi Rusk-min.jpg",
+    img: "../../public/assets/img/Zelco Suji Elaichi Rusk-min.jpg",
     description:
       "Zelco Suji Elaichi Rusk. A delightful blend of suji and elaichi flavors.",
     descriptionMore:
@@ -149,7 +149,7 @@ const catalog = [
     name: "Cauliflower",
     modifiedPrice: 0,
     isNew: true,
-    img: "../../img/Catalog/Cauliflower-min.jpg",
+    img: "../../public/assets/img/Cauliflower-min.jpg",
     description:
       "Fresh high-quality cauliflower, perfect for a variety of dishes.",
     descriptionMore:
@@ -168,7 +168,7 @@ const catalog = [
     salePrice: 7.99,
     name: "Brown Hazelnut",
     isNew: true,
-    img: "../../img/Catalog/Brown Hazelnut-min.jpg",
+    img: "../../public/assets/img/Brown Hazelnut-min.jpg",
     description: "Delicious Brown Hazelnut with a rich and nutty flavor.",
     descriptionMore:
       "Rich in healthy fats, protein, and vitamins. Perfect for baking, snacking, or adding to salads.",
@@ -186,7 +186,7 @@ const catalog = [
     salePrice: 8.99,
     name: "Onion",
     isNew: true,
-    img: "../../img/Catalog/Onion-min.jpg",
+    img: "../../public/assets/img/Onion-min.jpg",
     description:
       "Fresh and flavorful Onion, a versatile ingredient for various dishes.",
     descriptionMore:
@@ -205,7 +205,7 @@ const catalog = [
     salePrice: 7.99,
     name: "Cabbage",
     isNew: true,
-    img: "../../img/Catalog/Cabbage-min.jpg",
+    img: "../../public/assets/img/Cabbage-min.jpg",
     description: "Nutrient-packed Cabbage, perfect for healthy diets.",
     descriptionMore:
       "High in vitamins C and K, fiber, and antioxidants. Great for salads, coleslaw, and stir-fries.",
@@ -221,7 +221,7 @@ const catalog = [
     isSalePrice: false,
     counter: 1,
     name: "Long Cucumber",
-    img: "../../img/Catalog/Long Cucumber-min.jpg",
+    img: "../../public/assets/img/Long Cucumber-min.jpg",
     description:
       "Crisp and refreshing long cucumber, perfect for healthy meals and snacks.",
     descriptionMore:
@@ -239,7 +239,7 @@ const catalog = [
     isSalePrice: true,
     salePrice: 12.99,
     name: "White Hazelnut",
-    img: "../../img/Catalog/White Hazelnut-min.jpg",
+    img: "../../public/assets/img/White Hazelnut-min.jpg",
     description: "Delicious White Hazelnuts at a special discountered price.",
     descriptionMore:
       "Rich in healthy fats, protein, and essential vitamins. Perfect for snacking, baking, and cooking.",
@@ -255,7 +255,7 @@ const catalog = [
     isSalePrice: false,
     counter: 1,
     name: "Fresh Corn",
-    img: "../../img/Catalog/Corn-min.jpg",
+    img: "../../public/assets/img/Corn-min.jpg",
     description: "Farm-fresh Corn, a delightful addition to your meals.",
     descriptionMore:
       "Sweet and versatile, perfect for boiling, grilling, or adding to salads and salsas.",
@@ -272,7 +272,7 @@ const catalog = [
     isSalePrice: true,
     salePrice: 15.99,
     name: "Organic Almonds",
-    img: "../../img/Catalog/Almonds-min.jpg",
+    img: "../../public/assets/img/Almonds-min.jpg",
     description: "Premium Organic Almonds at a discountered price.",
     descriptionMore:
       "Nutritious and delicious, packed with healthy fats, protein, and fiber. Ideal for snacking, baking, and cooking.",
